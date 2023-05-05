@@ -255,7 +255,7 @@ while notCaptured:
                 seq += 1
                 print(seq)
                 if seq == 5:
-                    cv2.imwrite('myself.png', img)
+                    cv2.imwrite('myselfie.png', img)
                     cv2.imshow('Preview', img)
                     notCaptured = False
                     break
